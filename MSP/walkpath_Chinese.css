@@ -1,0 +1,97 @@
+/*---------typesetting class----*/
+
+nav{
+  z-index: 2;
+  /*for browser don't support gradient*/
+  background-size: contain;
+  width: 7vw;
+  background-image: url("slide_bar.png");
+  background-repeat: no-repeat;
+}
+
+.content{
+  z-index: 1;
+}
+
+
+
+/*---------font class-----------*/
+.font{
+  font-family: hanamin;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+body{
+  margin:0px;
+  padding:0px;
+}
+
+/*left表示標題是靠左對齊*/
+.title_walkpath_left{
+  font-size: 4vw;
+  padding-top: 1.5vw;
+  padding-bottom: 0.1vw;
+  text-align: left;
+  margin-top: 0.3vw;
+  margin-left: 10vw;
+}
+
+
+/*right表示標題是靠右對齊*/
+.title_walkpath_right{
+  font-size: 4vw;
+  padding-top: 0.05vw;
+  padding-bottom: 0.1vw;
+  text-align: right;
+  margin-top: 0.3vw;
+  margin-right: 2vw;
+}
+
+.content_walkpath_left{
+  font-size: 1vw;
+  margin-top: -2vw;
+  padding-top: 0vw;
+  text-align: left;
+  margin-left: 12vw;
+}
+
+.content_walkpath_right{
+  font-size: 1.2vw;
+  margin-top: -2vw;
+  padding-top: 0vw;
+  text-align: right;
+  margin-right: 3.6vw;
+}
+
+/*---------picture id-----------*/
+#intro{
+  background-image: url("walkpath_background_04.jpg");
+}
+
+#t0401{
+  background-image: url("walkpath_background_01.jpg");
+}
+
+#t0410{
+  background-image: url("walkpath_background_02.jpg");
+}
+
+#t0415{
+  background-image: url("walkpath_background_03.jpg");
+}
+
+#t0424{
+  background-image: url("walkpath_background_04.jpg");
+}
+
+#t0425{
+  background-image: url("walkpath_background_01.jpg");
+}
+
+#t0427{
+  background-image: url("walkpath_background_02.jpg");
+}
+
+/*---------font id--------------*/

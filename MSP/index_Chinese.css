@@ -1,0 +1,67 @@
+/*---------typesetting class----*/
+
+nav{
+  z-index: 2;
+  /*for browser don't support gradient*/
+  background-size: contain;
+  width: 7vw;
+  background-image: url("slide_bar.png");
+  background-repeat: no-repeat;
+}
+
+.subtitle_index{
+  font-size:3.2vh;
+  margin-right: 1.4vh;
+  margin-left: 0vh;
+  text-align: right;
+  line-height: 0.03vw;
+}
+
+.content_index{
+  font-size: 4.7vh;
+  margin-right: 0.6vh;
+  text-align: right;
+  line-height: 0.04vw;
+}
+
+/*---------font class-----------*/
+.index{
+  font-family: hanamin;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.space{
+  line-height: 0.04vw;
+}
+
+/*---------picture id-----------*/
+#cover_Front{
+  background-image: url("index_background_a1.jpg");
+  weight: 100vw;
+  overflow: hidden;
+/*margin can be used to change the position of text more precisely.*/
+}
+
+/*---------font id--------------*/
+#title_index{
+  margin-left: 4vw;
+  font-size:27vh;
+  letter-spacing: 5vh;
+  -webkit-writing-mode:vertical-rl;
+  writing-mode:vertical-rl;
+  line-height: 0vw;
+}
+
+/*area_title & area_content 是為了把版面分成兩欄*/
+#area_title{
+  width:15vw;
+  height: 100vh;
+  float: right;
+}
+
+#area_content{
+  width: 79vw;
+  height: 100vh;
+  float: left;
+}

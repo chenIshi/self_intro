@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--如果IE版本小於7-->
+<!--[if lt IE 7]> <html dir="ltr" lang="en" class="ie6"> <![endif]-->
+<!--IE版本為7-->
+<!--[if IE 7]> <html dir="ltr" lang="en" class="ie7"> <![endif]-->
+<!--IE版本為8-->
+<!--[if IE 8]> <html dir="ltr" lang="en" class="ie8"> <![endif]-->
+<!--IE版本為9-->
+<!--[if IE 9]> <html dir="ltr" lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html dir="ltr" lang="zh-TW" itemscope itemtype="http://schema.org/Blog">
+<!--<![endif]-->
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="author" content="Chen.ishi">
+  <meta name="keywords" content="Self-Introduction">
+
+
+  <link rel="stylesheet" type="text/css" href="frame_Chinese.css">
+  <link rel="stylesheet" type="text/css" href="walkpath_Chinese.css">
+  <!--使用jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <title>開發日誌</title>
+
+  <!--animation-->
+  <script>
+  $(document).ready(function(){
+
+    $('#btn01').click(function(){
+        $("#main_frame").animate({ scrollTop: $('#intro').offset().top },1750);
+        alert("此功能尚處於開發狀態！！");
+    });
+    $('#btn02').click(function(){
+        $("#main_frame").animate({ scrollTop: $('#t0401').offset().top },1750);
+    });
+    $('#btn03').click(function(){
+        $("#main_frame").animate({ scrollTop: $('#t0410').offset().top },1750);
+    });
+    $('#btn04').click(function(){
+        $("#main_frame").animate({ scrollTop: $('#t0415').offset().top },1750);
+    });
+    $('#btn05').click(function(){
+        $("#main_frame").animate({ scrollTop: $('#t0424').offset().top },1750);
+    });
+    $('#btn06').click(function(){
+        $("#main_frame").animate({ scrollTop: $('#t0425').offset().top },1750);
+    });
+    $('#btn07').click(function(){
+        $("#main_frame").animate({ scrollTop: $('#t0427').offset().top },1750);
+    });
+
+  });
+
+  jQuery(function($){
+    $("input").focus(function(){
+      $(this).blur();
+    });
+  });
+  </script>
+
+
+</head>
+
+<body>
+  <section class="font" id="main_frame">
+
+    <nav>
+
+      <br span style="line-height:8.75vw;">
+      <input type="button" id="btn01" class="btn">
+      <input type="button" id="btn02" class="btn">
+      <input type="button" id="btn03" class="btn">
+      <input type="button" id="btn04" class="btn">
+      <input type="button" id="btn05" class="btn">
+      <input type="button" id="btn06" class="btn">
+      <input type="button" id="btn07" class="btn">
+      <a href="index.html" title="返回主頁面" id="main" ><img src="home_a1.png" width="46" height="45" ></a><br>
+<!--
+      <a href="#INTRO"><img src="btn.jpg" class="btn" alt="為什麼" style="margin-top:15vh;"></a>
+      <a href="#t0401"><img src="btn.jpg" class="btn" alt="0401"></a>
+      <a href="#t0410"><img src="btn.jpg" class="btn" alt="0410"></a>
+      <a href="#t0415"><img src="btn.jpg" class="btn" alt="0415"></a>
+      <a href="#t0424"><img src="btn.jpg" class="btn" alt="0424"></a>
+      <a href="#t0425"><img src="btn.jpg" class="btn" alt="0425"></a>
+-->
+    </nav>
+
+    <section class="content">
+
+      <section class="link_Pic" id="intro">
+        <p span class="title_walkpath_left">#Intro</p>
+        <p span class="content_walkpath_left">2017.04.01<br>
+        一開始會想寫工作日誌是因為想紀錄下實做這個網站遇到的大小事<br>
+        不僅可以紀錄自己時不時閃過的一些想法<br>
+        未來要複習的時候上手應該也比較容易<br>
+        畢竟自己連同一個架構寫法從甲程式搬到乙程式都可以錯很久了<br>
+        </p>
+      </section>
+
+      <section class="link_Pic" id="t0401">
+
+        <p span class="title_walkpath_left">#Html </p>
+        <p span class="content_walkpath_left">HTML5架構定義了許多不同的架構，因為這部份是看網路自學的，對於整體的大架構，例如article這類新tag的使用時機<br>
+        什麼時候用section，什麼時候用article ，整體架構是誰包誰，看起來會比較有條理，未來維護的話比較好上手？<br>
+        這邊都是處理html5時遇到的問題<br>
+        </p>
+        <p span class="title_walkpath_left">#CSS </p>
+        <p span class="content_walkpath_left">網站的背景圖一直很缺圖，文字總是比圖片容易生出來（雖然等圖片生出來後文字還是要碰到排版的問題......<br><br>
+        同時，中文網頁對除了內建字體的支援也是很大的問題，除了google font有基本五種（黑體，仿宋，明體，楷體，圓體）以外<br>
+        justfont這個網站也有提供比較高質量的字型，但是該網站免費用戶的權限不是很足夠，但要花錢只用在這個網頁感覺又不太合適<br>
+        相較於英文字體的多元（英文字母少而中文字多應該佔了不少的原因），中文網頁要怎麼樣才能做的別出心裁呢？<br>
+        感覺可以試試看手寫字，最近剛買了手繪版可以試試看<br>
+        </p>
+        <p span class="title_walkpath_left">#JavaScript </p>
+        <p span class="content_walkpath_left">剛開始接觸這樣跟java一樣是物件導向的語言（java我們大一有稍微教過），但是除了這點之外，JavaScript的觀念跟java其實差蠻多的<br>
+        DOM模型，函式物件......等等很新奇的概念，雖然這個網頁應該不會有很多類似按鈕、表單之類的東西要做<br>
+        但是我比較習慣在call function的時候了解api的每個變數在負責什麼<br>
+        最近有在試試看了了解Jquery這個宣稱可以「寫的更少，做的更多」的函式庫<br>
+        </p>
+      </section>
+
+      <section class="link_Pic" id="t0410">
+
+        <p span class="title_walkpath_left">#CSS </p>
+        <p span class="content_walkpath_left">字型部份很麻煩的是，如果要取用類似google font的線上免費字體，會遇到「中文字體檔案太大，要載很久的情形」<br>
+        不僅在debug的時候很麻煩，使用者在瀏覽的時候也會以為是網路有問題網頁開不太起來<br>
+        由於要使用justfont這個功能要先給一個available的網域名<br>
+        因此線上申請了一個免費空間，但是覺得版本控制應該會是一個很大的問題<br>
+        因為網頁的檔案html，css，JavaScript等等通常來說會一個import另一個，之間的關係蠻複雜的很難只modify一個<br>
+        </p>
+
+      </section>
+
+      <section class="link_Pic" id="t0415">
+        <p span class="title_walkpath_left">#CSS </p>
+        <p span class="content_walkpath_left">我決定放棄用線上字型了，試試看用fontforge做一個內嵌字型說不定是個好辦法<br>
+        除此之外我打算減少手繪圖的部份，改而增加文字排版的部份，用出類似「文字雲」那種文字間距大小的美感<br>
+        但是重點應該就會在於要怎麼調整每個字的位置了，難道要客製化？</p>
+
+      </section>
+
+      <section class="link_Pic" id="t0424">
+        <p span class="title_walkpath_left">#CSS </p>
+        <p span class="content_walkpath_left">中文直書的排版真的有點痛苦，CSS很多排版相關的屬性的是針對橫書的，用到直書很容易跑版<br>
+        舉例來說，因為不知道解決這個問題該找什麼關鍵字，因此先試試看display的flex排版，本來以為是因為本來用的block會導致跑版<br>
+        結果用了flex以後狀況並沒有改變，本來想說直接調position不然就是調margin就好了，這才發現
+        「原來網頁設計，container的概念相當重要！！相當於ps的圖層，ai的向量繪圖那樣」<br>
+        margin調的是根據在的容器做調位置，容器錯的話調也沒用<br>
+        後來意外發現，原來margin的值可以調負的，但是這樣會有一些設計上的問題(白邊跑版)，而且這樣其實不符合設計的原理<br><br>
+        結果後來發現是一個div標籤的問題，而且是一個很簡單的錯誤(我早該想到的)<br>
+        我打算用網路上教的「並排欄位」的作法，但是我自己把長寬單位從px改成vw/vh（因為我想做responsive）<br>
+        一個div用30vw，另一個用70vw想說加起來剛好100vw......<br>
+        我忘記他是算比例的，應該會牽扯到浮點數計算之類的，或者一些神奇的四捨五入（有效位元數限制之類的）<br>
+        再不濟的話，之前也有實測過用javascript(其實很多語言都有這樣同樣結果，例如python)做0.1+0.2會因為IEEE754表示的關係，小數點後有一位跑出神奇的4<br>
+        導致30vw + 70vw != 100vw......也導致他跑版換到下一行去</p>
+      </section>
+
+      <section class="link_Pic" id="t0425">
+        <p span class="title_walkpath_left">#HTML (&amp JS)</p>
+        <p span class="content_walkpath_left">關於每個container block間的切換，原本想說用鍵盤上的方向鍵來作為控制鍵<br>
+        這樣就需要用到JavaScript來取得按鈕按下的事件，判斷在那個時候視窗捲軸的高度後，決定到下一個block所需要的位移<br>
+        但是我同學說，如果要用鍵盤按鈕作為操控的話，對於手機這類行動裝置就沒有辦法達到這樣的效果了<br>
+        因此他推薦我使用圖片的超連結，跳轉到到特定的scroll height，這樣的功能實做紙需要用到CSS3中的anchor跟連結用的href<br>
+        可以避免又要跑去學javascript的問題</p>
+      </section>
+
+      <section class="link_Pic" id="t0427">
+        <p span class="title_walkpath_left">#HTML (&amp Jquery)</p>
+        <p span class="content_walkpath_left">果然大學生做功課的效率永遠是一條指數曲線......<br>
+        這兩天幾乎只要開電腦就是在做網頁，雖然花了很多時間但是成果並沒有想像中的驚人<br>
+        舉例來說，我除了一上午的錯，結果只是因為少打兩行程式碼，因為web遇到error應該是直接pass<br>
+        導致每次出錯對我來說都像是一團霧水的runtime error<br><br>
+
+        雖然有嘗試去理解javascript的架構並嘗試自己生出自己寫的程式，但是由於時間壓力，我還是採用了Jquery的語法<br>
+        同時其實對DOM文件模型還不是很了解，算是且戰且走，不得不說Jquery的selector真的頗為強大<br>
+        Javascript可能要一直找子屬性，對於Jquery就丟給selector就好</p>
+
+        <p span class="title_walkpath_left">#CSS </p>
+        <p span class="content_walkpath_left">本來其實沒想說這麼複雜的......結果在月底死線前，可能是因為看到成品雛型不太滿意<br>
+        結果自己硬加了很多東西，包含旁邊的導覽列原本想說用css anchor做完就好，但是後來覺得這樣背景那個fixed的感覺就不見了<br>
+        所以就花了一整天的時間研究怎麼讓他可以用按鈕操作<br>
+        但是最麻煩的還是中文字型，不能丟有22MB的花園明朝體，但是我又想要有日系風的字體（google font那五款不太行）</p>
+    </section>
+
+    <footer>
+    </footer> <!--end of footer-->
+
+  </section> <!--end of index section-->
+</body><!--body of the index-->

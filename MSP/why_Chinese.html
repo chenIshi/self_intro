@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--如果IE版本小於7-->
+<!--[if lt IE 7]> <html dir="ltr" lang="en" class="ie6"> <![endif]-->
+<!--IE版本為7-->
+<!--[if IE 7]> <html dir="ltr" lang="en" class="ie7"> <![endif]-->
+<!--IE版本為8-->
+<!--[if IE 8]> <html dir="ltr" lang="en" class="ie8"> <![endif]-->
+<!--IE版本為9-->
+<!--[if IE 9]> <html dir="ltr" lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html dir="ltr" lang="zh-TW" itemscope itemtype="http://schema.org/Blog">
+<!--<![endif]-->
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="author" content="Chen.ishi">
+  <meta name="keywords" content="Self-Introduction">
+
+
+  <link rel="stylesheet" type="text/css" href="frame_Chinese.css">
+  <link rel="stylesheet" type="text/css" href="why_Chinese.css">
+  <title>為什麼要有FAQ？</title>
+
+  <!--使用jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+
+    $('#btn01').click(function(){
+        $("#main_frame").animate({ scrollTop: $('#webpage').offset().top },1750);
+        alert("此功能尚處於開發狀態！！");
+    });
+    $('#btn02').click(function(){
+        $("#main_frame").animate({ scrollTop: $('#modulized').offset().top },1750);
+    });
+    $('#btn03').click(function(){
+        $("#main_frame").animate({ scrollTop: $('#microsoft').offset().top },1750);
+    });
+    $('#btn04').click(function(){
+        $("#main_frame").animate({ scrollTop: $('#micro_Tech').offset().top },1750);
+    });
+
+  });
+
+  jQuery(function($){
+    $("input").focus(function(){
+      $(this).blur();
+    });
+  });
+  </script>
+
+
+
+</head> <!--head of the index-->
+
+<body>
+  <section class="font" id="main_frame">
+
+  <nav>
+
+    <br span style="line-height:8.75vw;">
+    <input type="button" id="btn01" class="btn">
+    <input type="button" id="btn02" class="btn">
+    <input type="button" id="btn03" class="btn">
+    <input type="button" id="btn04" class="btn">
+    <a href="index.html" title="返回主頁面" id="main" ><img src="home_a1.png" width="45" height="45" ></a><br>
+
+<!--
+    <a href="#WHY01"><img src="btn.jpg" class="btn" alt="網頁" style="margin-top:15vh;"></a>
+    <br class="spacing">
+    <a href="#HOW01"><img src="btn.jpg" class="btn" alt="工具"></a>
+    <br class="spacing">
+    <a href="#WHY02"><img src="btn.jpg" class="btn" alt="學生大使"></a>
+    <br class="spacing">
+    <a href="#WHAT01"><img src="btn.jpg" class="btn" alt="微軟"></a>
+    <br class="spacing">
+-->
+  </nav>
+
+  <section class="content">
+      <section class="link_Pic" id="webpage">
+        <p span class="title_why_left"><a name="WHY01">為什麼會是網頁？</p>
+        <p span class="content_why_left">
+        剛看到可以自己製作創意履歷的時候，因為之前蠻常製作小手冊或者紙類文宣的<br>
+        因此如果「用節目冊的模式來作履歷的話，應該會蠻輕鬆的吧！」<br>
+        平常有在碰的話不僅可以做的快而且品質也有保證<br>
+        然而那段時間我正好想學看看web app(剛參加完黑客松，對於自己的想法不能成功prototype出來有點可惜，我當時是用appinventor草草弄一個)<br>
+        之前有些課程也會需要使用到hackpad或hack.md作筆記，因此對這種可以平面輸出的軟體一直有興趣<br>
+        當時想說距離報名截止大約還有一個月以上，可以自己試試看自學一下怎麼做網頁
+        難得有這麼正大光明的理由去學別的東西，做出來的成品還可以被別人看到<br>
+        想說如果跟photoshop那樣，只是把按鈕拉到自己想要的地方應該就好了不會花太多時間......吧？</p>
+      </section>
+
+      <section class="link_Pic" id="modulized">
+        <p span class="title_why_left"><a name="HOW01">為什麼不用模組化的開發工具<br>（如Bootstrap、Adobe Dreamweaver）？</p>
+        <p span class="content_why_left">
+          最近很多類似這樣幫助快速開發的工具，但是我不想現在採用的原因是：</p>
+          <ul>
+            <li>原本想說還有很多時間可以從基礎慢慢學起</li>
+            <li>自己寫程式碼比較有成就感，自由度也比較高</li>
+            <li>會使用某項工具不太像是一個有強度的技能</li>
+            <li>會使用工具不代表會寫程式，會寫程式應該會使用工具</li>
+            <li>網路上資源也相當多，不至於自己苦苦研究</li>
+          </ul><br><br>
+          <p span class="content_why_left">
+          可能試過這次自製網頁會再試試看其他模組軟體，例如微軟好像有推出一款sway的軟體<br>
+          雖然好像不是網頁向的，但是以故事為主題蠻令我感興趣的</p>
+      </section>
+
+      <section class="link_Pic" id="microsoft">
+        <p span class="title_why_left"><a name="WHY02">為什麼想加入微軟學生大使？</p>
+        <p span class="content_why_left">之前在自由軟體的時候，每次提到自由軟體<br>
+          總是要拿來跟市面上現有的一些商業軟體做比較，而市面上市佔率95%的微軟office自然很容易成為比較的對象<br>
+          尤其是台灣這幾年在推的自由軟體計畫，從最近暨南大學libreoffice的事件就可以知道<br>
+          儘管雙方意見分歧，但是很明顯自由軟體的能見度有增加的現象<br>
+          雖然從自由軟體方聽到一些微軟在台灣的一些事情與意見<br>
+          但是相對來說，我聽到的可能是比較片面的說法（畢竟雙方重視的價值觀不同，出發點也不同）<br>
+          身邊也有同學儘管知道自由軟體的存在，還是喜愛使用微軟服務的存在<br>
+          因此，我想最好印證的方法就是自己去看看</p>
+      </section>
+
+      <section class="link_Pic" id="micro_Tech">
+        <p span class="title_why_left"><a name="WHAT01">為什麼會是技術組？</p>
+        <p span class="content_why_left">主要是因為系所原因，本身是電機系，雖然不是一直在寫（常見的）程式<br>
+        除此之外很大部份也是因為，平面設計比較像是個人興趣，如果被當作是工作的就會有工作壓力，要去跟現實妥協<br>
+        同時，作為一個理科相關科系在團隊中負責的部份，就算是要負責產出的prototype應該也比較會偏向技術性的處理問題<br>
+        目前先打算把設計這個人文興趣保存好，讓自己變得不要那麼「工程師」（對於自己專業的領域很難對大眾解釋，只能待在自己的小圈圈裡）</p>
+      </section>
+  </section>
+    <footer>
+    </footer> <!--end of footer-->
+
+  </section> <!--end of index section-->
+</body><!--body of the index-->

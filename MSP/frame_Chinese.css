@@ -1,0 +1,56 @@
+/*------import Font-------*/
+
+@font-face {
+  font-family: hanamin;
+  src: url(hanamin_index.eot); /* IE9 Compat Modes */
+  src: url(hanamin_index.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+       url(hanamin_index.woff) format("woff"), /* Modern Browsers */
+       url(hanamin_index.ttf) format("truetype"), /* Safari, Android, iOS */
+       url(hanamin_index.svg#hanamin_index) format("svg"); /* Legacy iOS */
+}
+/*---background Picture---*/
+
+.link_Pic{
+  background-attachment: fixed;
+  position: relative;
+  background-position: left center;
+  /*vh, vw是網路上找到的新單位，從CSS3後新增的功能，1vw代表0.01個視窗高度*/
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-size: 2vh;
+}
+
+nav{
+  height: 100vh;
+  float: left;
+  position: fixed;
+
+}
+
+#main_frame{
+
+}
+
+.content{
+  width: 100vw;
+  height: 100vh;
+  float: right;
+}
+
+.btn{
+  background-image:url(btn.png);
+  width:1.5vw;
+  height:1.5vw;
+  border-style:none;
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-color: rgba(0,0,0,0);
+  border-radius: 2vw;
+  display: block;
+  margin: 2vw 1.5vw 2vw 0.95vw;
+}
