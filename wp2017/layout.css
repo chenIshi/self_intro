@@ -1,0 +1,192 @@
+.full{
+    height: 100 vh;
+    width: 100 vw;
+    margin: auto;
+}
+
+.background{
+    
+    background-size: cover;
+    z-index: 1;
+}
+
+.content{
+    z-index: 2;
+}
+
+.indexBtn{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.title{
+    width: 58vmin;
+    height: 58vmin;
+}
+
+.mid{
+    position: absolute;
+
+    left: 36vw;
+    top: 20vh;
+
+}
+
+.test{
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.flexSize{
+    height: 12vh;
+    width: 10vw;
+    min-width: 5vw;
+    min-height: 5vh;
+    max-width: 30vw;
+    max-height: 30vh;
+}
+
+#rel_pos_00{
+    position: absolute;
+    margin-left: 7vw;
+    margin-top: -75vh;    
+    width: 36vw;
+    height: 18vh;
+}
+
+
+#rel_pos_01{
+    position: absolute;
+    margin-left: 2vw;
+    margin-top: -56vh;
+}
+
+#rel_pos_02{
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: -40vh;
+    width: 29vw;
+    height: 16vh;
+}
+
+#rel_pos_03{
+    position: absolute;
+    margin-left: 12.5vw;
+    margin-top: -23vh;
+    width: 22vw;
+    height: 13vh;
+}
+
+#rel_pos_04{
+    position: absolute;
+    margin-left: 2vw;
+    margin-top: -9vh;
+    width: 20vw;
+}
+
+#rel_pos_05{
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: -72vh;
+    width: 20vw;
+}
+
+#rel_pos_06{
+    position: absolute;
+    margin-left: 66vw;
+    margin-top: -70vh;
+    width: 20vw;
+}
+
+#rel_pos_07{
+    position: absolute;
+    margin-left: 72vw;
+    margin-top: -54vh;
+    width: 20vw;
+}
+
+#rel_pos_08{
+    position: absolute;
+    margin-left: 66vw;
+    margin-top: -40vh;
+    width: 22vw;
+    height: 16vh;
+}
+
+#rel_pos_09{
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: -23vh;
+    width: 22vw;
+    height: 15vh;
+}
+
+#rel_pos_10{
+    position: absolute;
+    margin-left: 62vw;
+    margin-top: -7vh;
+    width: 18vw;
+}
+
+#rel_pos_11{
+    position: absolute;
+    margin-left: 4vw;
+    margin-top: 6vh;
+    width: 22vw;
+}
+
+#rel_pos_12{
+    position: absolute;
+    margin-left: 28vw;
+    margin-top: 3vh;
+    width: 22vw;
+}
+
+#rel_pos_13{
+    position: absolute;
+    margin-left: 52vw;
+    margin-top: 9vh;
+    width: 22vw;
+}
+
+#rel_pos_14{
+    position: absolute;
+    margin-left: 76vw;
+    margin-top: 6vh;
+    width: 22vw;
+}
+
+#label_config{
+    position: absolute;
+    margin-left: 18vw;
+    margin-top: -18vh;
+}
+
+
+body{
+    background-image: url(wp2017/back.jpg);
+    background-size: cover;
+}
+
+.char_pic{
+    height: 56vmin;
+    width: 56vmin;
+}
+
+#ask_btn{
+    margin-left: 52vw;
+    margin-top: 0vh;
+    width: 18vmin;
+    height: 18vmin;
+}
+
+.subtitle{
+    font-size: 0.7vmin;
+    line-height: 1.9vmin;
+}
+
+.paragraph{
+   font-size: 2vmin;
+   line-height: 2.3vmin; 
+}
+

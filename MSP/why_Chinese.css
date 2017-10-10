@@ -1,0 +1,95 @@
+/*---------typesetting class----*/
+
+nav{
+  z-index: 2;
+  /*for browser don't support gradient*/
+  background-size: contain;
+  width: 7vw;
+  background-image: url("slide_bar.png");
+  background-repeat: no-repeat;
+}
+
+.content{
+  z-index: 1;
+}
+
+
+.spacing{
+  line-height: 7.5vw;
+}
+
+/*---------font class-----------*/
+.font{
+  font-family: hanamin;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+body{
+  margin:0px;
+  padding:0px;
+}
+
+/*left表示標題是靠左對齊*/
+.title_why_left{
+  font-size: 4vw;
+  padding-top: 1.5vw;
+  padding-bottom: 0.1vw;
+  text-align: left;
+  margin-top: 0.3vw;
+  margin-left: 10vw;
+}
+
+
+/*right表示標題是靠右對齊*/
+.title_why_right{
+  font-size: 4vw;
+  padding-top: 0.05vw;
+  padding-bottom: 0.1vw;
+  text-align: right;
+  margin-top: 0.3vw;
+  margin-right: 2vw;
+}
+
+.content_why_left {
+  font-size: 1.2vw;
+  margin-top: -2vw;
+  padding-top: 0vw;
+  text-align: left;
+  margin-left: 12vw;
+}
+
+li{
+  font-size: 1.2vw;
+  margin-top: 0vw;
+  padding-top: 0vw;
+  text-align: left;
+  margin-left: 12vw;
+}
+
+.content_why_right{
+  font-size: 1.2vw;
+  margin-top: -2vw;
+  padding-top: 0vw;
+  text-align: right;
+  margin-right: 3.6vw;
+}
+
+/*---------picture id-----------*/
+#webpage{
+  background-image: url("why_background_02.jpg");
+}
+
+#modulized{
+  background-image: url("why_background_03.jpg");
+}
+
+#microsoft{
+  background-image: url("why_background_04.jpg");
+}
+
+#micro_Tech{
+  background-image: url("why_background_05.jpg");
+}
+/*---------font id--------------*/

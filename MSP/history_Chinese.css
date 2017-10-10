@@ -1,0 +1,124 @@
+/*---------typesetting class----*/
+nav{
+  z-index: 2;
+  /*for browser don't support gradient*/
+  background-size: contain;
+  width: 7vw;
+  background-image: url("slide_bar.png");
+  background-repeat: no-repeat;
+}
+
+
+.btn{
+  margin: 1.5vw 1.5vw 1.5vw 0.95vw;
+}
+
+body{
+  margin:0px;
+  padding-bottom:0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.content{
+  z-index: 1;
+}
+
+
+/*---------font class-----------*/
+.font{
+  font-family: hanamin;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.time{
+  font-size: 1.8vw;
+}
+
+/*left表示標題是靠左對齊*/
+.title_history_left{
+  font-size: 4.3vw;
+  padding-top: 0.05vw;
+  padding-bottom: 0.1vw;
+  text-align: left;
+  margin-top: 0.3vw;
+  margin-left: 10vw;
+}
+
+
+/*right表示標題是靠右對齊*/
+.title_history_right{
+  font-size: 4.3vw;
+  padding-top: 0.05vw;
+  padding-bottom: 0.1vw;
+  text-align: right;
+  margin-top: 0.3vw;
+  margin-right: 2vw;
+}
+
+.content_history_left{
+  font-size: 1vw;
+  margin-top: -2vw;
+  padding-top: 0px;
+  text-align: left;
+  margin-left: 12.5vw;
+}
+
+.content_history_right{
+  font-size: 1vw;
+  margin-top: -2vw;
+  padding-top: 0vw;
+  text-align: right;
+  margin-right: 3.6vw;
+}
+
+/*---------picture id-----------*/
+#mongolia{
+  background-image: url("mongolia_background_a2.jpg");
+  weight: 94vw;
+}
+
+#Arduino{
+  background-image: url("arduino_background_a1.jpg");
+  weight: 94vw;
+}
+
+#maker{
+  background-image: url("hackathon_background_a2.jpg");
+  weight: 94vw;
+}
+
+#CMC_contest{
+  background-image: url("CMC_background_a1.jpg");
+  weight: 94vw;
+}
+
+#FOSS{
+  background-image: url("eduFOSS_a3.jpg");
+  weight: 94vw;
+}
+
+#promote{
+  background-image: url("legis_background_a1.jpg");
+  weight: 94vw;
+}
+
+#powerBI{
+  background-image: url("powerBI_background.jpg");
+  weight: 94vw;
+}
+
+#Nasa{
+  background-image: url("nasa_background.jpg");
+  weight: 94vw;
+}
+
+.history{
+  height: 5vw;
+  width: 5vw;
+  display:block;
+}
+
+/*---------font id--------------*/
