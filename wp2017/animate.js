@@ -18,6 +18,8 @@ $( document ).ready(function() {
   $('.message').transition('hide');
   flip_state = 0;
   change_state = 0;
+
+  $('#warning').modal('show');
 });
 
 
@@ -103,28 +105,28 @@ $("#ask_btn").click(function(){
       $('#Quest1').append(function(){
         return "<div id="+"append_content_01"+"><p>I'm Quest 01</p></div>";
       });
-      $('#rel_pos_11').transition('show');
+      $('#rel_pos_11').transition('scale');
       change_state = 0;
       break;
     case 2:
       $('#Quest2').append(function(){
         return "<div id="+"append_content_02"+"><p>I'm Quest 02</p></div>";
       });
-      $('#rel_pos_12').transition('show');
+      $('#rel_pos_12').transition('scale');
       change_state = 0;
       break;
     case 3:
       $('#Quest3').append(function(){
         return "<div id="+"append_content_03"+"><p>I'm Quest 03</p></div>";
       });
-      $('#rel_pos_13').transition('show');
+      $('#rel_pos_13').transition('scale');
       change_state = 0;
       break;
     case 4:
       $('#Quest4').append(function(){
         return "<div id="+"append_content_04"+"><p>I'm Quest 04</p></div>";
       });
-      $('#rel_pos_14').transition('show');
+      $('#rel_pos_14').transition('scale');
       change_state = 0;
       break;
     default:
@@ -141,7 +143,7 @@ $('#rel_pos_11').click(function(){
   quest_btn_pressed = (quest_btn_pressed + 1) % 5;
   switch(quest_btn_pressed){
     case 1:
-      $('#rel_pos_00').transition('show');
+      $('#rel_pos_00').transition('vertical flip in');
       //其他不該出現的回應應該要消失掉
       $('#rel_pos_02').transition('hide');
       $('#rel_pos_03').transition('hide');
@@ -149,7 +151,7 @@ $('#rel_pos_11').click(function(){
       $('#rel_pos_09').transition('hide');
       break;
     case 2:
-      $('#rel_pos_02').transition('show');
+      $('#rel_pos_02').transition('vertical flip in');
       //其他消失
       $('#rel_pos_00').transition('hide');
       $('#rel_pos_03').transition('hide');
@@ -157,21 +159,21 @@ $('#rel_pos_11').click(function(){
       $('#rel_pos_09').transition('hide');      
       break;
     case 3:
-      $('#rel_pos_03').transition('show');
+      $('#rel_pos_03').transition('vertical flip in');
       $('#rel_pos_00').transition('hide');
       $('#rel_pos_02').transition('hide');
       $('#rel_pos_08').transition('hide');
       $('#rel_pos_09').transition('hide');
       break;
     case 4:
-      $('#rel_pos_08').transition('show');
+      $('#rel_pos_08').transition('vertical flip in');
       $('#rel_pos_00').transition('hide');
       $('#rel_pos_02').transition('hide');
       $('#rel_pos_03').transition('hide');
       $('#rel_pos_09').transition('hide');
       break;
     case 0:
-      $('#rel_pos_09').transition('show');
+      $('#rel_pos_09').transition('vertical flip in');
       $('#rel_pos_00').transition('hide');
       $('#rel_pos_02').transition('hide');
       $('#rel_pos_03').transition('hide');
@@ -192,22 +194,22 @@ $('#rel_pos_13').click(function(){
   quest_btn_pressed = quest_btn_pressed + 1;
   switch(quest_btn_pressed){
     case 0:
-      $('.ui.modal').modal('show');
+      $('#es').modal('show');
       break;
     case 1:
-      $('.ui.modal').modal('show');
+      $('#es').modal('show');
       break;
     case 2:
-      $('.ui.modal').modal('show');
+      $('#es').modal('show');
       break;
     case 3:
-      $('.ui.modal').modal('show');
+      $('#es').modal('show');
       break;
     case 4:
-      $('.ui.modal').modal('show');
+      $('#es').modal('show');
       break;
     case 5:
-      $('.ui.modal').modal('show');
+      $('#es').modal('show');
       break;
     default:
       alert("很抱歉，頁面無法使用！！");
@@ -240,7 +242,7 @@ $('#easter_egg_01_no').click(function(){
       string = "<p id="+"easter_appended"+">是不是以為多試幾次會找到彩蛋？</p>"
       break;
     case 4:
-      string = "<p id="+"easter_appended"+">彩蛋這邊可能還要想一下，<a href="+"https://chenishi.000webhostapp.com/"+">我先放個之前做的網頁壓壓驚</a></p>"
+      string = "<p id="+"easter_appended"+">彩蛋這邊可能還要想一下，<a href='https://chenishi.000webhostapp.com/'>我先放個之前做的網頁壓壓驚</a></p>"
       break;
     default:
       break;
