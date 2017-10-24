@@ -20,6 +20,17 @@ $( document ).ready(function() {
   change_state = 0;
 
   $('#warning').modal('show');
+
+  //ajax測試程式碼
+  $("#ajax_btn").click(function(){
+    $.ajax({
+      method: "get",
+      url: "./ajax_data",
+      success: function(data){
+        $("#ajax_content").html(data)
+      }
+    })
+  })
 });
 
 

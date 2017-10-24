@@ -3,7 +3,7 @@ const app = express()
 const port = 61234
 
 app.listen(port,() => {
-    console.log('Listening on port ${port}');
+    console.log('Listening on port'+ port);
 
 })
 
@@ -14,3 +14,7 @@ app.get('/get', function(req, res) {
   res.send('<h1>Hello, ' + req.query.fname + req.query.lname + '</h1>');
 
 });
+
+app.get("/ajax_data", function(req, res) {
+  res.send("Ajax!")
+})
