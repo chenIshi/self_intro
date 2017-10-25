@@ -174,7 +174,16 @@ body{
 }
 
 #ask_btn{
+    position: absolute;
     margin-left: 52vw;
+    margin-top: 0vh;
+    width: 18vmin;
+    height: 18vmin;
+}
+
+#ajax_btn{
+    position: absolute;
+    margin-left:38vw;
     margin-top: 0vh;
     width: 18vmin;
     height: 18vmin;

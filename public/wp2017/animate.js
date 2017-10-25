@@ -23,14 +23,32 @@ $( document ).ready(function() {
 
   //ajax測試程式碼
   $("#ajax_btn").click(function(){
-    $.ajax({
+    
+    $("#ajax_btn").transition("jiggle");
+
+    $("#ask_authority").modal("show");
+
+
+/*    $.ajax({
       method: "get",
       url: "./ajax_data",
       success: function(data){
         $("#ajax_content").html(data)
       }
+    })*/
+  })
+/*
+  $("#ajax_comment_btn").click(function(){
+    
+    $.ajax({
+      method: "get",
+      url: "./ajax_comment",
+      success: function(data){
+        alert(data)
+      }
     })
   })
+  */_
 });
 
 
@@ -38,6 +56,7 @@ $( document ).ready(function() {
 $('.pulsable').mousedown(function(){
   $('.pulsable').transition('pulse');  
   $('#ask_btn').transition('scale');
+  $('#ajax_btn').transition('tada');
 })
 
 $('.clickable').click(function(){
